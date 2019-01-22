@@ -1,0 +1,1 @@
+tar -zcvf jre8.tar.gz *
