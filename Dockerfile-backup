@@ -1,5 +1,5 @@
 # using alpine-glibc instead of alpine  is mainly because JDK relies on glibc
-FROM docker.io/centos
+FROM docker.io/jeanblanchard/alpine-glibc
 # author
 MAINTAINER windwithlife
 # A streamlined jre
