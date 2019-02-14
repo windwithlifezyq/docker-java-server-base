@@ -4,6 +4,8 @@ FROM docker.io/centos
 MAINTAINER windwithlife
 # A streamlined jre
 ADD jre8.tar.gz /usr/java/jdk/
+
+RUN yum install -y bind-utils
 # set env
 ENV JAVA_HOME /usr/java/jdk
 ENV PATH ${PATH}:${JAVA_HOME}/bin
